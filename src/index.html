@@ -8,147 +8,152 @@
 </head>
 <body class="bg-[#0F0B00]">
     
-    <header class="flex items-center justify-between p-6">
-        <img class="w-5" src="svg/wolffitLogo.svg" alt="">
-        <nav class="flex items-center gap-5">
-            <a href="#"><p class="font-inter font-semibold text-white text-xs">Planos</p></a>
-            <a href="#"><p class="font-inter font-semibold text-white text-xs">Contato</p></a>
-            <a href="#"><p class="font-inter font-semibold text-white text-xs">Horários</p></a>
+    <header class="max-w-[1700px] lg:m-auto flex items-center justify-between p-6 sm:p-8 md:p-10">
+        <img class="w-5 sm:w-8" src="svg/whiteWolffitLogo.svg" alt="">
+        <nav class="flex items-center gap-5 sm:gap-8 lg:gap-12">
+            <a href="#"><p class="font-inter font-semibold text-white text-xs sm:text-lg">Planos</p></a>
+            <a href="#"><p class="font-inter font-semibold text-white text-xs sm:text-lg">Contato</p></a>
+            <a href="#"><p class="font-inter font-semibold text-white text-xs sm:text-lg">Horários</p></a>
         </nav>
     </header>
 
-    <section class="p-6">
-        <h1 class="font-inter text-white text-6xl font-extrabold italic">Wolf Fit</h1>
-        <h2 class="font-inter text-white text-lg font-semibold mb-5">Onde a força ganha vida<span class="text-[#F1BB13]">.</span></h2>
-        <p class="font-inter text-white text-xs leading-5 mb-5">Aqui, combinamos equipamentos de última geração, metodologias inovadoras e uma equipe de profissionais altamente qualificados para guiar você em cada passo da sua jornada fitness. 🐺💪</p>
-        <div class="bg-[#F1BB13] w-max rounded-sm p-2 shadow-xl shadow-[rgba(241,185,19,0.2)]">
-            <p class="font-bold text-base">Veja nossos planos</p>
+    <section class="introSection p-6 sm:p-8 md:p-10 lg:m-auto">
+        <div class="containerIntro">
+            <h1 class="font-inter text-white text-6xl font-extrabold italic sm:text-8xl">WOLF FIT</h1>
+            <h2 class="font-inter text-white text-lg font-semibold mb-5 sm:text-2xl md:mb-8">Onde a força ganha vida<span class="text-[#F1BB13]">.</span></h2>
+            <p class="font-inter text-white text-xs leading-5 mb-5 sm:text-base sm:leading-6 md:leading-7 md:mb-8">Aqui, combinamos equipamentos de última geração, metodologias inovadoras e uma equipe de profissionais altamente qualificados para guiar você em cada passo da sua jornada fitness. 🐺💪</p>
+            <div class="btn bg-[#F1BB13] w-max rounded-sm p-2 shadow-xl shadow-[rgba(241,185,19,0.2)] sm:p-3">
+                <p class="font-bold text-base sm:text-lg">Veja nossos planos</p>
+            </div>
         </div>
+
+        <img class="logo w-1/2 max-w-[400px] hidden" src="svg/wolffitLogo.svg" alt="">
     </section>
 
-    <section class="bg-white p-6">
-        <h1 class="text-3xl font-bold">Venha nos conhecer<span class="text-[#F1BB13]">!</span></h1>
-        <p class="text-xs mb-8">Estamos localizados na <span class="font-semibold">Avenida Jerumenha, 4589, próximo ao Rei do Tênis.</span></p>
-
-        <div class="flex items-center gap-1 mb-3">
-            <p class="text-base font-bold">Horário de funcionamento</p>
-            <img class="w-5" src="svg/clock.svg" alt="">
-        </div>
-
-        <div class="flex flex-col gap-2">
-            <div class="flex gap-1">
-                <div class="bg-linear-to-r from-[#F1BB13] to-[#FFCA26] p-1.5 rounded-tl-sm rounded-bl-sm">
-                    <p class="font-semibold text-sm">Segunda à Sexta</p>
-                </div>
-                <div class="bg-[#0F0B00] p-1.5 rounded-tr-sm rounded-br-sm">
-                    <p class="text-white font-semibold text-sm">5h até as 23h</p>
-                </div>
+    <section class="horarioSection bg-white p-6 sm:p-8 md:p-10">
+        <video class="video w-70 hidden rounded-sm" autoplay="true" loop muted src="video/videoAcademia.mp4"></video>
+        <div>
+            <h1 class="text-3xl font-bold sm:text-5xl md:mb-2">Venha nos conhecer<span class="text-[#F1BB13]">!</span></h1>
+            <p class="text-xs mb-8 sm:text-base md:mb-10 lg:text-lg">Estamos localizados na <span class="font-semibold">Avenida Jerumenha, 4589, próximo ao Rei do Tênis.</span></p>
+            <div class="flex items-center gap-1 mb-3 md:mb-5">
+                <p class="text-base font-bold sm:text-xl lg:text-2xl">Horário de funcionamento</p>
+                <img class="w-5 lg:w-6" src="svg/clock.svg" alt="">
             </div>
-            <div class="flex gap-1">
-                <div class="bg-linear-to-r from-[#F1BB13] to-[#FFCA26] p-1.5 rounded-tl-sm rounded-bl-sm">
-                    <p class="font-semibold text-sm">Sáb, Dom e Feriados</p>
-                </div>
-                <div class="bg-[#0F0B00] p-1.5 rounded-tr-sm rounded-br-sm">
-                    <p class="text-white font-semibold text-sm">7h até as 19h</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="p-6">
-        <p class="text-white font-medium">Junte-se a nós<span class="text-[#F1BB13]">!</span></p>
-        <h1 class="text-white text-3xl font-bold mb-8">Conheça nossos planos<span class="text-[#F1BB13]">.</span></h1>
-
-        <div class="flex flex-col gap-10">
-            <div>
-                <p class="text-white text-lg mb-2">Plano <span class="text-[#F1BB13] font-bold">Mensal</span></p>
-                <h1 class="text-white text-4xl font-bold mb-5">R$ 150,00</h1>
-            
-                <div class="flex flex-col gap-1.5">
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Área de Musculação</p>
-                        <img class="w-4" src="svg/check.svg" alt="">
+            <div class="flex flex-col gap-2 lg:gap-4">
+                <div class="flex gap-1 lg:gap-2">
+                    <div class="bg-linear-to-r from-[#F1BB13] to-[#FFCA26] p-1.5 rounded-tl-sm rounded-bl-sm sm:p-3">
+                        <p class="font-semibold text-sm sm:text-lg">Segunda à Sexta</p>
                     </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Praça de Alimentação</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Brinquedoteca</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Aula de Boxe</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Aula de Dança</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
+                    <div class="bg-[#0F0B00] p-1.5 rounded-tr-sm rounded-br-sm sm:p-3">
+                        <p class="text-white font-semibold text-sm sm:text-lg">5h até as 23h</p>
                     </div>
                 </div>
-            </div>
-            
-            <div>
-                <p class="text-white text-lg mb-2">Plano <span class="text-[#F1BB13] font-bold">Trimestral</span></p>
-                <h1 class="text-white text-4xl font-bold mb-5">R$ 440,00</h1>
-            
-                <div class="flex flex-col gap-1.5">
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Área de Musculação</p>
-                        <img class="w-4" src="svg/check.svg" alt="">
+                <div class="flex gap-1 lg:gap-2">
+                    <div class="bg-linear-to-r from-[#F1BB13] to-[#FFCA26] p-1.5 rounded-tl-sm rounded-bl-sm sm:p-3">
+                        <p class="font-semibold text-sm sm:text-lg">Sáb, Dom e Feriados</p>
                     </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Praça de Alimentação</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Brinquedoteca</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Aula de Boxe</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Aula de Dança</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <p class="text-white text-lg mb-2">Plano <span class="text-[#F1BB13] font-bold">Semestral</span></p>
-                <h1 class="text-white text-4xl font-bold mb-5">R$ 890,00</h1>
-            
-                <div class="flex flex-col gap-1.5">
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Área de Musculação</p>
-                        <img class="w-4" src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Praça de Alimentação</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Brinquedoteca</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Aula de Boxe</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
-                    </div>
-                    <div class="flex items-center gap-1">
-                        <p class="text-white text-sm">Aula de Dança</p>
-                        <img class="w-4"  src="svg/check.svg" alt="">
+                    <div class="bg-[#0F0B00] p-1.5 rounded-tr-sm rounded-br-sm sm:p-3">
+                        <p class="text-white font-semibold text-sm sm:text-lg">7h até as 19h</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-white p-6">
-        <p class="font-medium">Ficou com alguma dúvida<span class="text-[#F1BB13]">?</span></p>
-        <h1 class="text-2xl font-bold mb-8">Entre em contato conosco<span class="text-[#F1BB13]">.</span></h1>
+    <section class="planoSection max-w-[1400px] p-6 sm:p-8 md:p-10 lg:pt-20 lg:pb-20 lg:m-auto">
+        <p class="text-white font-medium sm:text-2xl">Junte-se a nós<span class="text-[#F1BB13]">!</span></p>
+        <h1 class="text-white text-3xl font-bold mb-8 sm:text-5xl sm:mb-16">Conheça nossos planos<span class="text-[#F1BB13]">.</span></h1>
+
+        <div class="flex flex-wrap justify-center gap-10 sm:gap-8 sm:flex-row sm:items-center md:gap-20 sm:justify-around">
+            <div class="z-50">
+                <p class="text-white text-lg mb-2 lg:text-2xl">Plano <span class="text-[#F1BB13] font-bold">Mensal</span></p>
+                <h1 class="text-white text-4xl font-bold mb-5 lg:text-5xl">R$ 150,00</h1>
+            
+                <div class="flex flex-col gap-1.5 lg:gap-2">
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Área de Musculação</p>
+                        <img class="w-4" src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Praça de Alimentação</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Brinquedoteca</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Aula de Boxe</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Aula de Dança</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <p class="text-white text-lg mb-2 lg:text-2xl">Plano <span class="text-[#F1BB13] font-bold">Trimestral</span></p>
+                <h1 class="text-white text-4xl font-bold mb-5 lg:text-5xl">R$ 440,00</h1>
+            
+                <div class="flex flex-col gap-1.5 lg:gap-2">
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Área de Musculação</p>
+                        <img class="w-4" src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Praça de Alimentação</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Brinquedoteca</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Aula de Boxe</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Aula de Dança</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="text-white text-lg mb-2 lg:text-2xl">Plano <span class="text-[#F1BB13] font-bold">Semestral</span></p>
+                <h1 class="text-white text-4xl font-bold mb-5 lg:text-5xl">R$ 890,00</h1>
+            
+                <div class="flex flex-col gap-1.5 lg:gap-2">
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Área de Musculação</p>
+                        <img class="w-4" src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Praça de Alimentação</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Brinquedoteca</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Aula de Boxe</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                    <div class="flex items-center gap-1">
+                        <p class="text-white text-sm lg:text-base">Aula de Dança</p>
+                        <img class="w-4"  src="svg/check.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white p-6 sm:p-8 md:p-10">
+        <p class="font-medium lg:text-xl">Ficou com alguma dúvida<span class="text-[#F1BB13]">?</span></p>
+        <h1 class="text-2xl font-bold mb-8 lg:text-4xl">Entre em contato conosco<span class="text-[#F1BB13]">.</span></h1>
 
         <div class="flex flex-col gap-2">
             <div class="flex items-center gap-3">

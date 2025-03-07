@@ -5,3 +5,78 @@
 }
 
 @import "tailwindcss";
+
+.planoSection::before {
+    display: none;
+}
+
+@media (width >= 64rem) {
+    .logo {
+        display: block;
+    }
+
+    .introSection {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .containerIntro {
+        max-width: 600px;
+    }
+
+    .horarioSection {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .video {
+        display: block;
+    }
+
+    .planoSection {
+        position: relative;
+    }
+
+    .planoSection::before {
+        display: block;
+        content: '';
+        width: 300px;
+        height: 400px;
+        background: url('./img/arranhao1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        top: -30%;
+        left: 55%;
+        rotate: -70deg;
+        position: absolute;
+    }
+
+    .planoSection::after {
+        display: block;
+        content: '';
+        width: 200px;
+        height: 250px;
+        background: url('./img/arranhao2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        top: 75%;
+        left: 25%;
+        rotate: -90deg;
+        position: absolute;
+    }
+}
+
+@media (width >= 80rem) {
+    .introSection {
+        gap: 50px;
+    }
+
+    .video {
+        width: 350px;
+    }
+}
